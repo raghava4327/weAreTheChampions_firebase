@@ -1,0 +1,102 @@
+html,body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    user-select: none;
+}
+
+.container{
+    max-width:390px;
+    background: #1B1924;
+    margin:20px auto;
+    padding-bottom:25px;    
+    color: #FFF;
+font-family: Josefin Sans;
+}
+img{
+    width: 90px;
+    line-height: 90px;
+    margin-top:50px;
+}
+#message{
+    width: 320px;
+    height: 90px;
+    padding:10px 20px;
+    resize: none;
+    font-size: 15px;
+}
+.input-dimensions{
+    width:155px;
+    height:40px;
+    text-align: center;
+}
+
+
+.input-fields{
+   
+    border-radius: 8px;
+    background: #444059;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    box-sizing: border-box;
+    
+}
+button{
+    margin:12px 0;
+    width: 320px;
+    border-radius: 8px;
+    background: #28A9F1;
+    height: 61px;
+    padding:0;
+    border:none;
+    line-height: 40px;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 700;
+    cursor:pointer;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+ul{
+    padding:0;
+    margin:10px 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap ;
+    gap:10px;
+}
+ul li{
+    background-color: #FFF;
+    padding:10px;
+    color:black;
+    flex-grow:1;
+    cursor:pointer;
+}
+span
+{
+    margin:0 auto;
+    color:#0a6697;
+    font-family: 'Inter', sans-serif;
+}
+.display-from-to{
+    text-align: left;
+    font-weight: 700;    
+    font-size:14px;
+    font-family: 'Inter', sans-serif;
+    
+}
+#display-messages{
+    font-size:14px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    margin:10px 0;
+}
